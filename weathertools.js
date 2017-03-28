@@ -2,10 +2,8 @@
 
 $(function(){
     var temp = $("#temperature"); 
-    var ftemp;
-    
+    var ftemp;    
     getLocation();
-    
     setInterval(function() {
         var date = new Date();
         $('#time').html(
@@ -147,8 +145,7 @@ function retrieveIcon(weatherID){
     }
     else{
         return "http://icon-park.com/icon/simple-weather-icons-scattered-thunderstorms.png";
-    }
-    
+    }  
 }
 
 function setLocation(weatherObj){
