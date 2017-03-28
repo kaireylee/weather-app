@@ -1,6 +1,7 @@
 # weather-app
 
-Simple weather app that shows current weather + basic week forecast using open-weather api 
+Simple weather app that takes geo-location and returns current weather + basic week forecast 
+using open-weather api, capable of changing locations through input as well. 
 
 ## Usage
 
