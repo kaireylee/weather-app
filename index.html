@@ -1,54 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-    <title>Weather Applet</title>
-</head>
-<body>
-<br><br>
-<div class="wrapper col-offset-lrg-2">
-    <div class="container">
-        <h1 id="location">Location</h1>
-        <p id="time"></p>
-        <p id="conditions">Weather Conditions</p>
-        <h1 id="temperature"></h1>
-    </div>
-    <div class="container">
-        <div class="week">
-            <ul id="days">
-                <li class="0">Su</li>
-                <li class="1">M </li>
-                <li class="2">T </li>
-                <li class="3">W </li>
-                <li class="4">Th</li>
-                <li class="5">F </li>
-                <li class="6" id="right_li">Sa</li>
-            </ul>  
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+        <title>Weather Applet</title>
+    </head>
+    <body>
+    <br><br>
+    <div class="wrapper col-offset-lrg-2">
+        <div class="container">
+                <h1 id="location">Location</h1>
+                <p id="time"></p>
+                <p id="conditions">Weather Conditions</p>
+                <h1 id="temperature"></h1>
         </div>
-        <div class="weather_icons">
-            <img id="0" src="">
-            <img id="1" src="">
-            <img id="2" src="">
-            <img id="3" src="">
-            <img id="4" src="">
-            <img id="5" src="">
-            <img id="6" src="">
+        <div class="container">
+            <div class="week">
+                <ul id="days">
+                    <li class="0">Su</li>
+                    <li class="1">M </li>
+                    <li class="2">T </li>
+                    <li class="3">W </li>
+                    <li class="4">Th</li>
+                    <li class="5">F </li>
+                    <li class="6" id="right_li">Sa</li>
+                </ul>  
+            </div>
+            <div class="weather_icons">
+                <img id="0" src="">
+                <img id="1" src="">
+                <img id="2" src="">
+                <img id="3" src="">
+                <img id="4" src="">
+                <img id="5" src="">
+                <img id="6" src="">
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div>
+                <p id="inputprompt">Enter city name to change location:</p>
+                <input type="text" id="city_input">
+                <br><br>
+            </div>
         </div>
     </div>
-    <br>
-    <div class="container">
-        <p id="inputprompt">Enter city name to change location:</p>
-        <span></span>
-        <input type="text" id="city_input">
-        <span></span>
-        <br><br>
-    </div>
-</div>
-</body>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="weathertools.js"></script>
+    </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="weathertools.js"></script>
 </html>
