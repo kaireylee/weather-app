@@ -32,18 +32,13 @@ p {
 }
 
 #city_input{
-    display: inline-block;
     transition: all 0.3s ease-out;
     padding: 5px;
-    margin: -23px;
+    margin-left: 132px;
     -moz-box-sizing: border-box;
 	text-align: center; 
 }
 
-span {
-    display: inline-block;
-    width: 34%;
-}
 
 ul{
     width: 100%;
