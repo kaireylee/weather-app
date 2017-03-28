@@ -1,10 +1,12 @@
 # weather-app
 
-Simple weather app that shows current weather + basic week forecast
+Simple weather app that shows current weather + basic week forecast using open-weather api 
 
 ## Usage
 
 Click the temperature to switch scales (F/C)
+
+Change location through input. 
 
 ## Contributing
 
