@@ -1,10 +1,10 @@
 # weather-app
 
-TODO: Simple weather app that shows current weather + basic week forecast
+Simple weather app that shows current weather + basic week forecast
 
 ## Usage
 
-TODO: Click the temperature to switch scales (F/C)
+Click the temperature to switch scales (F/C)
 
 ## Contributing
 
@@ -22,8 +22,8 @@ V1.1: Fixed resizing issues
 
 ## Credits
 
-TODO: N/A
+N/A
 
 ## License
 
-TODO: N/A
+MIT
